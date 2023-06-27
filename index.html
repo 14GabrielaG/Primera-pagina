@@ -1,0 +1,300 @@
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>La hacienda de los psicópatas wattpad</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-white">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-red w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>La hacienda de los psicópatas</b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">wattpad</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/Wattpad.webp" alt="Fashion Blog" width="1400" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h6><button class="w3-button w3-black w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">LEER</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-black w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Salome</h3>
+          <h5>Protagonista asesina y canibal 
+              <span class="w3-opacity">JE JE JE</span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/salomesangre.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> Salome!</strong> Fue criada y entrenada desde niña en la hacienda para ser una maquina de matar y tortutar sin sentir ningun tipo de remordimiento, por el contrario disfrutaba hacerlo, incluso tenia relaciones con su primo en medio de las torturas o escenas de los crimenes. Salome era demasiado bella fisicamente, pues ella misma admiraba su atletico cuerpo frente al espejo. Nunca imagino enamorarse de un sacerdote al cual secuestraron, desde ese momento su vida cambio; incluso comprendio que fue abusada y todo en su vida no era normal ni estaba bien. Incluso por raro que suene nos damos cuenta que no es su culpa, solo intento proteger lo unico que tenia, a su primo. El nombre Salome proviene de un personaje biblico "villano" pues Salome pidió la cabeza de Juan Bautista en un plato y un guarda fue a cortar la cabeza. Este nombre se lo puso el rey es decir al que llamaban padre.</p>
+          <p class="w3-left"><button class="w3-button w3-black w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/isaac.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Isaac <span class="w3-opacity w3-medium">Jun 26, 2023, 4:32 PM</span></h4>
+                <p>Era solo una niña, en el fondo no es mala.
+                  Soy el sacerdote por el cual Salome, Cain, Goliat, Pat, Dulce y todos los demas lograron salir de esa hacienda.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-black w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Cain</h3>
+          <h5>Asesino y canibal al igual que su prima, <span class="w3-opacity">JE JE JE</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/cain.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Cain!</strong> Al igual que Salome sufrio mucho en su infancia. A muy temprana edad Fue obligado a tortutar animales y matarlos, a comer carne termino blue. Cain era hermoso fisicamente junto con su prima y eran llamados en el mundo del narcotrafico como los angeles de la muerte, esto tiene sentido debido a lo hermosos que eran, con ojos azules y tez blanca, ademas de lo agiles y psicopatas que eran para asesinar y torturar. El nombre Cain proviene de un personaje biblico "villano" pues Caín asesinó a su hermano Abel, este nombre se lo puso el rey es decir al que llamaban padre.</p>
+          <p class="w3-left"><button class="w3-button w3-black w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/salome.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Salome<span class="w3-opacity w3-medium">Jun 26, 2023, 6:08 PM</span></h4>
+                <p>Lo siento, padre tambien abuso de ti. Gracias por estar siempre para mi.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/goliat.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Goliat <span class="w3-opacity w3-medium">Jun 26, 2023, 6:13 PM</span></h4>
+                <p>Eres un gran chico Cain, no te pude proteger lo suficiente del rey.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/pat.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Pat <span class="w3-opacity w3-medium">Jun 26, 2023, 6:28 PM</span></h4>
+                <p>Crei que eran los peores monstruos que jamás existirían pero me ayudaron a hacer justicia del abuso y asesinato de mi hija</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-black w3-margin">
+        <img src="img/elrey.jpg" alt="Rey" style="width:50%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>El Rey</h4>
+          <p>El mafioso más poderoso de la ciudad. Es un horrible ser humano, abusador, asesino, tambien es quien asesino a los padres de Salomé y Caín a los cuales manipulo y entreno para satisfacer sus necesidades, creando unas personas monstruosas para la sociedad.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-black w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Datos de los personajes</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-black">
+          <li class="w3-padding-16">
+            <img src="img/cainpequeño.jpg"Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Caín</span>
+            <br>
+            <span>No se dio cuenta en que momento se volvio gay, aunque seguia amando y cuidando demasiado a Salomé.
+            </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/salomee.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Salomé</span>
+            <br>
+            <span>Isaac cambio por completo su vida y se convirtio en lo más importante para ella, incluso más que Caín.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/pat.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Pat</span>
+            <br>
+            <span>Perdio las ganas de vivir al perecer lo más importante en su vida e involucrar a su mejor amigo en el mundo del narcotrafico. </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/goliat.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Goliat</span>
+            <br>
+            <span>Siempre intento cuidar de sus "hijos" y hacer lo que podia para criarlos aunque el rey no lo dejara. Su nombre tambien proviene de un personaje biblico.  </span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-black w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-black">
+          <p>
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Wattpad</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Libro</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Salomé</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Caín</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pat</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Goliat</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">El Rey</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hacienda</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">psicópatas</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Narcotrafico</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Asesinatos</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Abusos</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Canibalismo</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sacerdote</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-black w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-black">
+          <div class="w3-col s6">
+            <p><img src="img/Hacienda de los psicopatas.jpg" alt="Portada" style="width:100%"></p>
+            <p><img src="img/isaac.jpg" alt="Isaac" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/cainr.jpg"Men in Hats style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/salomee.jpg" alt="Salomé" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-black w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-black w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-black">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-white w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
